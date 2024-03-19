@@ -8,7 +8,6 @@ let photo7 = document.getElementById("photo7");
 let photo8 = document.getElementById("photo8");
 let photo9 = document.getElementById("photo9");
 
-
 photo1.onclick = function () {
     photo1.setAttribute("id", "photo1Scale");
 }
@@ -26,7 +25,7 @@ photo2.ondblclick = function () {
 }
 
 photo3.onclick = function () {
-    photo3.setAttribute("id", "photo3Scale");  
+    photo3.setAttribute("id", "photo3Scale");
 }
 
 photo3.ondblclick = function () {
@@ -84,3 +83,6 @@ photo9.onclick = function () {
 photo9.ondblclick = function () {
     photo9.setAttribute("id", "photo9")
 }
+
+
+
