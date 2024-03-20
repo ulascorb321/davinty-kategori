@@ -78,69 +78,6 @@
   -webkit-filter: blur(2px);
 }
 
-#photo1Scale {
-  top: 110%;
-  left: 150%;
-  transform: translate(-50%, -50%) scale(3);
-  z-index: 999;
-}
-
-#photo2Scale {
-  top: 110%;
-  left: 55%;
-  transform: translate(-50%, -50%) scale(3);
-  z-index: 999;
-}
-
-#photo3Scale {
-  top: 110%;
-  right: 55%;
-  transform: translate(-50%, -50%) scale(3);
-  z-index: 999;
-}
-
-#photo4Scale {
-  top: 10%;
-  left: 150%;
-  transform: translate(-50%, -50%) scale(3);
-  z-index: 999;
-}
-
-#photo5Scale {
-  top: 10%;
-  left: 55%;
-  transform: translate(-50%, -50%) scale(3);
-  z-index: 999;
-}
-
-#photo6Scale {
-  top: 10%;
-  right: 55%;
-  transform: translate(-50%, -50%) scale(3);
-  z-index: 999;
-}
-
-#photo7Scale {
-  top: 10%;
-  left: 150%;
-  transform: translate(-50%, -50%) scale(3);
-  z-index: 999;
-}
-
-#photo8Scale {
-  top: 10%;
-  left: 55%;
-  transform: translate(-50%, -50%) scale(3);
-  z-index: 999;
-}
-
-#photo9Scale {
-  top: 10%;
-  right: 55%;
-  transform: translate(-50%, -50%) scale(3);
-  z-index: 999;
-}
-
 #buttons {
   display: block;
 }
@@ -307,6 +244,71 @@ button:hover .button-text {
   color: #fff;
 }
 
+@media (min-width:800px) {
+  #photo1Scale {
+    top: 110%;
+    left: 150%;
+    transform: translate(-50%, -50%) scale(3);
+    z-index: 999;
+  }
+  
+  #photo2Scale {
+    top: 110%;
+    left: 55%;
+    transform: translate(-50%, -50%) scale(3);
+    z-index: 999;
+  }
+  
+  #photo3Scale {
+    top: 110%;
+    right: 55%;
+    transform: translate(-50%, -50%) scale(3);
+    z-index: 999;
+  }
+  
+  #photo4Scale {
+    top: 10%;
+    left: 150%;
+    transform: translate(-50%, -50%) scale(3);
+    z-index: 999;
+  }
+  
+  #photo5Scale {
+    top: 10%;
+    left: 55%;
+    transform: translate(-50%, -50%) scale(3);
+    z-index: 999;
+  }
+  
+  #photo6Scale {
+    top: 10%;
+    right: 55%;
+    transform: translate(-50%, -50%) scale(3);
+    z-index: 999;
+  }
+  
+  #photo7Scale {
+    top: 10%;
+    left: 150%;
+    transform: translate(-50%, -50%) scale(3);
+    z-index: 999;
+  }
+  
+  #photo8Scale {
+    top: 10%;
+    left: 55%;
+    transform: translate(-50%, -50%) scale(3);
+    z-index: 999;
+  }
+  
+  #photo9Scale {
+    top: 10%;
+    right: 55%;
+    transform: translate(-50%, -50%) scale(3);
+    z-index: 999;
+  }
+}
+
 @media (max-width:800px) { 
   .header{
     margin-left: 53%;
@@ -319,6 +321,8 @@ button:hover .button-text {
   #buttons{
     margin-left: 5%;
   }
+
+
 
 
 }
